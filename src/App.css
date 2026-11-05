@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+}
+
+.header {
+  background: #1e3a8a;
+  color: white;
+  padding: 20px;
+  display: flex;
+  text-align:center;
+  justify-content: space-between;
+}
+
+.header button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.summary {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+}
+
+.income {
+  background: green;
+}
+
+.expense {
+  background: crimson;
+}
+
+.balance {
+  background: blue;
+}
+
+
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.transaction-item button{
+  background:red;
+  color:white;
+  border:none;
+  padding:8px 15px;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.transaction-form{
+  margin:20px;
+  display:flex;
+  gap:10px;
+}
+
+.transaction-form input,
+.transaction-form select{
+  padding:10px;
+}
+.transaction-list {
+  margin: 30px;
+}
+
+.transaction-list h2 {
+  margin-bottom: 15px;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px;
+  margin-bottom: 10px;
+
+  background: white;
+  border-radius: 8px;
+
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+.transaction-item button {
+  background: red;
+  color: white;
+  border: none;
+
+  padding: 8px 15px;
+
+  border-radius: 5px;
+  cursor: pointer;
+}
